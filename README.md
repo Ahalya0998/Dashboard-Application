@@ -43,7 +43,7 @@ npm start
 #### The project directory structure is as follows:
 
 ```plaintext
-dashboard-application/
+dashboard
 │
 ├── public/
 │   ├── index.html
@@ -51,22 +51,19 @@ dashboard-application/
 │
 ├── src/
 │   ├── components/
-│   │   ├── Feedback/
-│   │   │   ├── FeedbackContainer.jsx
-│   │   │   └── FeedbackItem.jsx
-│   │   ├── Progress/
-│   │   │   └── CircularProgressBar.jsx
-│   │   └── Activity/
-│   │       └── BarChart.jsx
+│   │   ├── Dashboard.js  
+│   │   ├── Header.js  
+│   │   └── Sidebar.js
 │   │
 │   ├── App.js
 │   ├── index.js
-│   └── ...
+│   ├── App.css
+│   └── index.css
 │
 ├── .gitignore
 ├── package.json
-├── README.md
-└── ...
+├── package-lock.json
+└── README.md
 ```
 ### Technologies Used
 #### React: JavaScript library for building user interfaces.
