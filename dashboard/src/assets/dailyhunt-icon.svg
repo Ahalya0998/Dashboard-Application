@@ -1,0 +1,55 @@
+import React from 'react';
+import styled from 'styled-components';
+import { FaSearch, FaBell, FaUser } from 'react-icons/fa';
+import DailyhuntIcon from './path/to/dailyhunt-icon.svg'; // Adjust the path accordingly
+
+const HeaderContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #242424;
+`;
+
+const Search = styled.div`
+  display: flex;
+  align-items: center;
+  background-color: #3a3a3a;
+  padding: 10px;
+  border-radius: 5px;
+`;
+
+const Input = styled.input`
+  border: none;
+  background: none;
+  color: white;
+  margin-left: 10px;
+  outline: none;
+`;
+
+const Icons = styled.div`
+  display: flex;
+  align-items: center;
+
+  & > * {
+    margin-left: 20px;
+  }
+`;
+
+const Header = () => (
+  <HeaderContainer>
+    <div style={{ display: 'flex', alignItems: 'center' }}>
+      <img src={DailyhuntIcon} alt="Dailyhunt Icon" style={{ width: '24px', height: '24px', marginRight: '20px' }} />
+      <Search>
+        <FaSearch style={{ color: 'white' }} />
+        <Input type="text" placeholder="Search" />
+      </Search>
+    </div>
+    <Icons>
+      <FaBell style={{ color: 'white' }} />
+      <FaUser style={{ color: 'white' }} />
+    </Icons>
+  </HeaderContainer>
+);
+
+export default Header;
