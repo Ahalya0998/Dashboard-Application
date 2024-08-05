@@ -8,7 +8,7 @@ import { IoMdLogOut } from "react-icons/io";
 import { BsClipboardCheck } from "react-icons/bs";
 
 const SidebarContainer = styled.div`
-  width: 80px;
+  width: 60px;
   height: 100vh; /* Full viewport height */
   background-color: #242424;
   display: flex;
@@ -36,16 +36,13 @@ const LogoutIcon = styled(Icon)`
 `;
 
 const HomeIcon = styled(Icon)`
-  color:Blue;
-
+  color: Blue;
 `;
 
 const FillIcon = styled(Icon)`
-  color:Blue;
+  color: Blue;
   font-size: 30px;
-
 `;
-
 
 const Sidebar = () => (
   <SidebarContainer>

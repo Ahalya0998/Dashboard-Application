@@ -45,13 +45,14 @@ Chart.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 // `;
 
 const MainContent = styled.div`
-  margin-left: 80px;
+  margin-left: 50px;
   padding: 20px;
   background-color: #1e1e1e;
   color: #e0e0e0;
-  // height: 100vh;
+  // // height: 100vh;
   display: flex;
   flex-direction: column;
+
 `;
 
 const DashboardContainer = styled.div`
@@ -79,7 +80,7 @@ const CardGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 20px;
-  // height: 100vh;
+  // // height: 100vh;
 `;
 
 const Card = styled.div`
@@ -511,7 +512,7 @@ const Dashboard = () => {
         <DashboardContainer>
           <CardGrid1>
             <Section
-              style={{ marginLeft: "-3%", width: "131%", height: "90%" }}>
+              style={{ marginLeft: "-3%", width: "131%", height: "98%" }}>
               <h3>Recent Orders</h3>
               <Table>
                 <thead>
@@ -574,7 +575,7 @@ const Dashboard = () => {
                 </tbody>
               </Table>
             </Section>
-            <Section style={{ marginLeft: "35%", height: "90%" }}>
+            <Section style={{ marginLeft: "35%", height: "98%" }}>
               <h3>Customer's Feedback</h3>
               <FeedbackContainer>
                 <FeedbackItem>
