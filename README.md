@@ -20,7 +20,7 @@ The Dashboard Application is a web-based platform that provides users with an in
 ### Installation
 Follow these steps to set up the project locally:
 #### 1. Clone the repository:
-git clone https://github.com/Ahalya0998/Dashboard-Application
+git clone https://github.com/Ahalya0998/Dashboard-Application.git
 cd dashboard
 #### 2. Install dependencies:
 npm install
