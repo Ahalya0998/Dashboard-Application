@@ -390,7 +390,7 @@ const Card = styled.div`
 const NetProfitCard = styled(Card)`
   flex: 1; /* 25% width */
   width: 100%;
-  height: 100%;
+  // height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
